@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar-brand{
+    font-size: 35px;
+    color: lightcoral !important;
+}
+.nav-link{
+    font-size: 18px;
+    margin: 15px;
+    color: rgb(82, 80, 80) !important;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.active .nav-link{
+    color: tomato !important;
+}
+.nav-link:hover{
+    color: turquoise !important;
+}
+.site-btn1{
+    background:rgb(39, 39, 39);
+    color: rgb(185, 184, 184);
+    margin: 5px;
+}
+.btn1{
+    /* margin-left: 30%; */
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+.site-btn1:hover{
+    background: rgb(165, 164, 164);
+    color: black;
+}
+.site-content{
+    background-image: url(ipad-beside-mug-2237797.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.site-title , .site-desc{
+    color:rgb(109, 106, 106);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+.site-title h1{
+    color: rgb(196, 21, 196);
+    font-size: 50px;
+    text-align: center;
+}
+.site-desc{
+    font-size: 18px;
+    /* padding-left: 15%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.header-col{
+    align-items: center;
+    justify-content: center;
+}
+/* section-1*/
+.section1{
+    margin-bottom: 8%;
+}
+.section1 .heading-1{
+    margin-top: 5%;
+    font-size: 49px;
+}
+.section1 .heading-2{
+    margin-bottom: 3%;
+    font-size:49px;
+}
+.section1 .para-1{
+    font-size: 20px;
+    color: gray;
+}
+.section1 .card-text {
+    color: rgba(0,0,0,0.454) ;
+}
+.section1 .card{
+    width: 20rem;
+}
+
+/* section-2 */
+
+.section-2 .container-fluid{
+    background-image: url(headphones.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.section-2 .heading-1{
+    margin-top: 40%;
+    margin-bottom: 1%;
+    width: 80%;
+    color: white;
+    
+}
+.section-2 .para{
+    color: whitesmoke;
+    width: 80%;
+}
+.work{
+    padding-bottom: 10%;
+}
+.section-2 .btn{
+    width: 30%;
+    padding: 2% 3%;
+}
+
+/* section-3*/
+
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: rgb(248, 156, 171);
+}
+.section-3 p{
+    color: gray;
+}
+
+
+/* section-4 */
+
+
+.section-4{
+  margin-top: 8%;
+}
+.section-4 .row .col-md-7 , .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4 a{
+    color: lightgreen;
+    font-size: 30px;
+}
+.section-4 p{
+    color: rgb(161, 161, 161);
+    margin-top: 5%;
+    font-size: 18px;
+}
+.section-4 .col-md-7 img{
+    width: 500px;
+}
+
+/* footer */
+
+.social-icons i{
+    color: rgb(248, 118, 140);
+    padding: 5px;
+}
+
+@media  screen and (max-width:540px){
+    .section1 .card{
+
+        margin-top: 2%;
+    }
+    .section-4 .col-md-7 img{
+       width: 300px;
+    }
+    .section-5 .form-control{
+        margin-bottom: 3%;
+    }
+    .social-icons i{
+        margin: 4%;
+    }
+}
